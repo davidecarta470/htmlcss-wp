@@ -79,32 +79,37 @@ a:hover{
 /* aside main */
 aside,main{
   margin-bottom:15px;
-  height:200px;
+  height: 700px;
+  float: left;
 }
 
 aside{
   width: 20%;
-  float: left;
 }
 
 
 main{
   width: 56%;
-  float: left;
   margin: auto 2%;
   
 }
 /* top img  */
+aside div,main div{
+  height: 200px;
+  margin-bottom: 30px;
+}
 main div{
   background-image: url(../img/banner-2.jpg);
 }
 .img1{
  background-image: url(../img/img-1.jpg);
-
 }
 .img3{
   background-image: url(../img/img-3.jpg);
- 
+ }
+ main div,.img1,.img3{
+  background-size: cover;
+  background-position:center; 
  }
  
 
@@ -112,7 +117,8 @@ main div{
 /* FOOTER */
 footer
 {
-  height: 100px;
-  background-color: rgb(14, 14, 16);
+  height: 60px;
+  text-align:center;
+  line-height: 60px;
   
 }
