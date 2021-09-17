@@ -42,7 +42,7 @@ a:hover{
 }
 /* jumbotron */
 .jumbotron{
-  height: 500px;
+  /* height: 500px; */
   color: #ffffff;
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
@@ -72,14 +72,14 @@ a:hover{
   height:80px;
   margin-bottom: 15px;
 }
-.top span{
+.top span,.second-container,footer{
   color: #888888;
 }
 
 /* aside main */
 aside,main{
   margin-bottom:15px;
-  height: 700px;
+
   float: left;
 }
 
@@ -117,8 +117,8 @@ main div{
 /* FOOTER */
 footer
 {
-  height: 60px;
+  height: 100px;
   text-align:center;
-  line-height: 60px;
+  line-height: 100px;
   
 }
